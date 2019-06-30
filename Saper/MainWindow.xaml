@@ -1,0 +1,12 @@
+﻿<Window x:Class="Saper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="650" Width="650" Loaded="LoadGame">
+    <Grid Margin="0,32,2,0">
+        <Grid x:Name="GamePane" Height="587" VerticalAlignment="Top"/>
+        <StackPanel HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="640" Margin="0,-30,0,0" Orientation="Horizontal">
+            <Label x:Name="Mines" Content="Кол-во мин : " VerticalAlignment="Top"/>
+            <Label x:Name="PaneSize" Content="Поле на: int X int " HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+        </StackPanel>
+    </Grid>
+</Window>
